@@ -1,0 +1,50 @@
+body {
+  background: rgb(3, 9, 27);
+}
+.chatMessenger {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+ }
+.chatMessenger button{
+ background-color: rgb(242, 141, 68);
+ border-radius: 50%;
+ margin: 0px;
+ border: 1px solid white;
+}
+.chatMessenger button span{
+  margin-top: 5px;
+ }
+.transparent{
+  background: rgba(255, 255, 255, 0);
+  text-align: center;
+  border: none;
+}
+.navigate a{
+  font-size: 15px;
+  /*color: rgba(255, 255, 255, 0.72);*/
+  color: black;
+}
+.navigate li:hover{
+  background-color: black;
+}
+.detailContainer{
+  background: white;
+  -webkit-box-shadow: 7px 9px 28px -7px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 9px 28px -7px rgba(0,0,0,0.75);
+  box-shadow: 7px 9px 28px -7px rgba(0,0,0,0.75);
+    border-radius: 1px;
+}
+.alignBtn{
+  display: inline-block;
+}
+.lucasHeader{
+  float: left;
+}
+.linkedInBtn{
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.githubBtn{
+  margin-bottom: 10px;
+}

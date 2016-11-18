@@ -1,9 +1,18 @@
 import React, { Component } from 'react';
+import ChatMessenger from '../containers/chat-messenger';
+import Navbar from '../containers/navbar';
+import NavItemDetails from '../containers/nav-item-detail';
 
-export default class App extends Component {
+class App extends Component {
   render() {
     return (
-      <div>React simple starter</div>
+      <div>
+        <Navbar />
+        <ChatMessenger />
+        <NavItemDetails />
+      </div>
     );
   }
 }
+
+export default App;
