@@ -38,7 +38,7 @@ body {
 .alignBtn{
   display: inline-block;
 }
-.lucasHeader{
+.detailHeader{
   float: left;
 }
 .linkedInBtn{
@@ -47,4 +47,19 @@ body {
 }
 .githubBtn{
   margin-bottom: 10px;
+}
+.borderless td, .borderless th {
+    border: none !important;
+    text-align: center;
+}
+.centerText{
+  text-align: center;
+}
+.imgMed{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.thumbImg{
+  width: 150px;
+  height: 150px;
 }
