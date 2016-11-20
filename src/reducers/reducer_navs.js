@@ -23,9 +23,9 @@ export default function(){
           title: 'Personal Website',
           projectStack: 'React, Redux, JavaScript, ES6, SocketIO, Webpack, Babel',
           description: ' corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?',
-          link: '',
+          link: 'http://lucasgarza.com',
           imgLink: '../../style/images/lucasGarzaImg.jpg'
-        }
+        },
       ]
     },
     {
