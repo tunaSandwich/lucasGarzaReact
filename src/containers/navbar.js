@@ -4,13 +4,14 @@ import { bindActionCreators } from 'redux';//To push action to reducer
 import { selectNav } from '../actions/index';
 
 class Navbar extends Component{
+  //Render NavBar List
   renderList(){
     return this.props.navs.map((navItem) => {
       return (
         <li key={navItem.title}
         onClick={() => this.props.selectNav(navItem)}
         className='navListItem {navItem.title}'>
-          <a href='#'>{navItem.title}</a>
+          <a href='#'><h5>{navItem.title}</h5></a>
         </li>
       );
     });

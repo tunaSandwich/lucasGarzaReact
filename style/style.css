@@ -2,15 +2,18 @@ body {
   background: rgb(3, 9, 27);
 }
 .chatMessenger {
-    position: fixed;
+    position: absolute;
     bottom: 25px;
     right: 25px;
  }
 .chatMessenger button{
- background-color: rgb(242, 141, 68);
+ background-color: rgba(18, 22, 131, 0.61);
  border-radius: 50%;
  margin: 0px;
- border: 1px solid white;
+ border: 1px solid rgba(192, 193, 214, 0.77);
+ -webkit-box-shadow: 3px 9px 15px -7px rgba(0,0,0,0.75);
+ -moz-box-shadow: 3px 9px 15px -7px rgba(0,0,0,0.75);
+ box-shadow: 3px 9px 15px -7px rgba(0,0,0,0.75);
 }
 .chatMessenger button span{
   margin-top: 5px;
@@ -29,11 +32,12 @@ body {
   background-color: black;
 }
 .detailContainer{
+  padding: 25px;
   background: white;
   -webkit-box-shadow: 7px 9px 28px -7px rgba(0,0,0,0.75);
   -moz-box-shadow: 7px 9px 28px -7px rgba(0,0,0,0.75);
   box-shadow: 7px 9px 28px -7px rgba(0,0,0,0.75);
-    border-radius: 1px;
+  border-radius: 1px;
 }
 .alignBtn{
   display: inline-block;
@@ -46,7 +50,7 @@ body {
   margin-bottom: 10px;
 }
 .githubBtn{
-  margin-bottom: 10px;
+  margin-right: 25px;
 }
 .borderless td, .borderless th {
     border: none !important;
@@ -62,4 +66,39 @@ body {
 .thumbImg{
   width: 150px;
   height: 150px;
+}
+.backgroundLucas{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: url('./images/backgroundLucas.jpeg');
+  width: 100%;
+  height: 100%;
+}
+.chatContainer{
+  height: 400px;
+  width: 300px;
+  position: absolute;
+  bottom: 25px;
+  right: 250px;
+  background-color: red;
+}
+.messages{
+  width: 100%;
+  height: 250px;
+}
+.test{
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}
+.tableImg{
+  width: 50px;
+  height: 50px;
+}
+.alignBtn{
+  align: center;
 }

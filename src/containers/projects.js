@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 class Projects extends Component {
   renderProjects(project){
     return (
-      <div className="media">
+      <div className="media" key={project.title}>
           <div className="media-left media-middle">
             <a href="#">
               <img className="media-object img-circle thumbImg" src={project.imgLink} alt="..." />
@@ -23,7 +23,6 @@ class Projects extends Component {
   render(){
     return (
       <div>
-      <h3 className='centerText'>{this.props.nav.title}</h3>
         {this.props.nav.project.map(this.renderProjects)}
       </div>
     )

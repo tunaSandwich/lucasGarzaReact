@@ -2,8 +2,13 @@ export default function(){
   return [
     {
       title: 'Lucas Garza',
+      backgroundImg: '../../style/images/backgroundLucas.jpg',
       occupation: 'Softare Engineer',
       skills: [['JavaScript', 'ES6 Syntax', 'MongoDB', 'Mongoose'], ['MongoLab', 'React', 'Redux', 'JSX'], ['NodeJS', 'Express', 'HTML/CSS', 'APIs/Documentation']],
+      skillSymbols: [
+        ['../../style/images/stackSymbols/JSLogo.png', '../../style/images/stackSymbols/ES6Logo.jpg', '../../style/images/stackSymbols/mongoDBLogo.png', '../../style/images/stackSymbols/socketIOLogo.png'],
+        ['../../style/images/stackSymbols/mongoLabLogo.png', '../../style/images/stackSymbols/reactLogo.jpg', '../../style/images/stackSymbols/reduxLogo.png', '../../style/images/stackSymbols/JSXLogo.png'],
+        ['../../style/images/stackSymbols/nodeJSLogo.png', '../../style/images/stackSymbols/expressLogo.png', '../../style/images/stackSymbols/htmlLogo.png', '../../style/images/stackSymbols/cssLogo.png']],
       github: 'https://github.com/tunaSandwich',
       cell: '(626) 807-5538',
       email: 'gonzalezgarza.lucas@gmail.com',
@@ -25,7 +30,7 @@ export default function(){
           description: ' corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?',
           link: 'http://lucasgarza.com',
           imgLink: '../../style/images/lucasGarzaImg.jpg'
-        },
+        }
       ]
     },
     {
