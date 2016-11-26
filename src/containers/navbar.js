@@ -9,9 +9,10 @@ class Navbar extends Component{
     return this.props.navs.map((navItem) => {
       return (
         <li key={navItem.title}
+        id={navItem.id}
         onClick={() => this.props.selectNav(navItem)}
-        className='navListItem {navItem.title}'>
-          <a href='#'><h5>{navItem.title}</h5></a>
+        className='navListItem'>
+          <a href='#'><h4>{navItem.title}</h4></a>
         </li>
       );
     });
@@ -19,9 +20,9 @@ class Navbar extends Component{
 
   render() {
     return (
-      <nav className="navbar navbar-default transparent">
+      <nav className="navbar navbar-default">
         <div className="container-fluid">
-          <div className="navbar-header">
+          <div className="navbar-header ">
             <div className="col-md-6 col-md-offset-3 ">
               <ul className="nav nav-pills nav-justified navigate">
                 {this.renderList()}

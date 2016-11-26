@@ -14,7 +14,7 @@ class Projects extends Component {
             <h4 className="media-heading">{project.title}</h4>
             <h5>{project.projectStack}</h5>
             <p>{project.description}</p>
-            <a>{project.link}</a>
+            <a className='projectLink'>{project.link}</a>
           </div>
         </div>
     )
