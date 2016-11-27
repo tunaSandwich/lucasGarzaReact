@@ -9,6 +9,7 @@ class App extends Component {
       <div className='background'>
         <Navbar />
         <NavItemDetails />
+        {this.props.children}
         <ChatMessengerBtn />
       </div>
     );

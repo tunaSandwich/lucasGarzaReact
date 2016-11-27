@@ -133,7 +133,7 @@ table{
   right: 25px;
   float: right;
   height: 350px;
-  background-color: rgba(116, 118, 145, 0.8);
+  background-color: rgb(38, 38, 38);
   border-radius: 5px;
   -webkit-box-shadow: 7px 9px 28px -7px rgba(0,0,0,0.75);
   -moz-box-shadow: 7px 9px 28px -7px rgba(0,0,0,0.75);
@@ -147,8 +147,7 @@ table{
   position: absolute;
   top: 0px;
   left: 10px;
-  color: white;
-  color: red;
+  color: rgba(230, 48, 0, 0.74);
 }
 #messages{
   height: 315px;
@@ -197,4 +196,25 @@ li a:hover, li a:focus {
 }
 .projectLink{
   color: rgba(230, 48, 0, 0.74);
+}
+.SimplePDF {
+      width: 350px;
+      height: 500px;
+      border: 1px dashed red;
+      margin: 15px;
+      padding: 15px;
+      float: left;
+}
+#messages li{
+  background-color: rgba(230, 48, 0, 0.74);
+  color: black;
+  list-style-type: none;
+  float: left;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin: 0px;
+  padding: 0px;
+}
+.alignToCenter{
+  text-align: center;
 }

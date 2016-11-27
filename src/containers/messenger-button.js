@@ -4,7 +4,6 @@ import { bindActionCreators } from 'redux';
 
 class ChatMessenger extends Component{
   renderMessenger(){
-    console.log('click');
     $('#chatContainer').toggleClass('show');
 
     $('form').submit(function(){
@@ -17,7 +16,6 @@ class ChatMessenger extends Component{
 
   closeWindow(){
     $('#chatContainer').removeClass('show');
-
       return
   }
 
@@ -27,7 +25,10 @@ class ChatMessenger extends Component{
       <div>
         <div id='chatContainer' className='chatContainer'>
           <ul id="messages">
-            <p className='close' onClick={this.closeWindow}>x</p>
+            {/* <nav>
+              <div className='close' onClick={this.closeWindow}>X</div>
+            </nav> */}
+            <li><p>Begin Chatting with Lucas.... </p></li>
           </ul>
               <form action="" className="form-horizontal">
                 <input type="text" id="message" className="form-control" autoComplete="off"  placeholder="Send Message..." />

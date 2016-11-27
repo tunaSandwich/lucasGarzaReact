@@ -18,7 +18,7 @@ class Lucas extends Component {
   render(){
     return (
       <div>
-        <div className='centerText'>
+        <div className='centerText LucasTitle'>
           <h1>{this.props.nav.title}</h1>
           <hr className='redLine' />
         </div>
