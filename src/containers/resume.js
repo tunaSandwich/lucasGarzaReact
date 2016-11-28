@@ -12,7 +12,7 @@ class Resume extends Component {
 
   render(){
     return (
-      <div className='alignToCenter'>
+      <div className='alignToCenter pdfContainer'>
         <PDF file={this.props.resume.file} page={this.props.resume.page} />
       </div>
     )

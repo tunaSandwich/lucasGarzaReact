@@ -4,13 +4,20 @@
 body {
   font-family: "Lucida Console", Monaco, monospace;
 }
-.background{
+#background{
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
-  background-image: url('./images/projectsBackground.jpg');
+  /*background-image: url('./images/projectsBackground.jpg');*/
   background-repeat: no-repeat;
   background-size: 100% 100%;
-
+}
+.backgroundLucas{
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  /*background-image: url('./images/projectsBackground.jpg');*/
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 .chatMessengerBtn {
     position: absolute;
@@ -87,9 +94,6 @@ table{
 .centerText{
   text-align: center;
   top: -25px;
-}
-.centerText h1{
-  color: rgb(38, 38, 38);
 }
 .imgMed{
   padding-left: 0px;
@@ -183,7 +187,7 @@ hr{
   margin-top: 45px;
 }
 .selected{
-  border-bottom: 5px solid rgba(230, 48, 0, 0.74);
+  border-bottom: 2.5px solid rgba(230, 48, 0, 0.74);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
@@ -221,5 +225,23 @@ li a:hover, li a:focus {
 }
 .lucasHeader{
   font-size: 40px;
-
+  color: whitesmoke;
+}
+.profileImg{
+  top: 25%;
+  height: 575px;
+  width: 600px !important;
+  background-image: url('./images/lucasGarzaImg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.profileText{
+  top: 20vh;
+}
+.pdfContainer{
+  max-height: 85vh;
+  overflow: scroll;
+}
+.project{
+  margin-bottom: 10px;
 }

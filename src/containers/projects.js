@@ -4,26 +4,31 @@ import { connect } from 'react-redux';
 class Projects extends Component {
   renderProjects(project){
     return (
-      <div className="media" key={project.title}>
-          <div className="media-left media-middle">
-            <a href="#">
-              <img className="media-object img-circle thumbImg" src={project.imgLink} alt="..." />
-            </a>
-          </div>
-          <div className="media-body">
-            <h4 className="media-heading">{project.title}</h4>
-            <h5>{project.projectStack}</h5>
-            <p>{project.description}</p>
-            <a href={project.link} className='projectLink'>{project.link}</a>
-          </div>
+      <div className='project'>
+        <div className="media" key={project.title}>
+        <div className="media-left media-middle">
+        <a href="#">
+        <img className="media-object img-circle thumbImg" src={project.imgLink} alt="..." />
+        </a>
         </div>
+        <div className="media-body">
+        <h4 className="media-heading">{project.title}</h4>
+        <h5>{project.projectStack}</h5>
+        <p>{project.description}</p>
+        <a href={project.link} className='projectLink'>{project.link}</a>
+        </div>
+        </div>
+
+      </div>
     )
   }
 
   render(){
     return (
-      <div>
+      <div className='col-md-10 col-md-offset-1'>
+        <div className='detailContainer'>
         {this.props.nav.project.map(this.renderProjects)}
+        </div>
       </div>
     )
   }

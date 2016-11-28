@@ -18,7 +18,7 @@ class NavItemDetails extends Component {
   render(){
     return (
       <div>
-        <div className='col-md-8 col-md-offset-2 detailContainer'>
+        <div>
           {this.selectDetail()}
         </div>
       </div>

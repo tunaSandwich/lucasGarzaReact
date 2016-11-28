@@ -3,7 +3,7 @@ export default function(){
     {
       title: 'Lucas Garza',
       backgroundImg: '../../style/images/backgroundLucas.jpg',
-      occupation: 'Software Engineer',
+      occupation: 'DEVELOPER',
       github: {title: 'Github', imgLink: '../../style/images/stackSymbols/githubIcon.png', link: 'https://github.com/tunaSandwich'},
       linkedin: {title: 'LinkedIn', imgLink: '../../style/images/stackSymbols/linkedIcon.png', link: 'www.linkedin.com/in/lucasgonzalezgarza'},
       skillSets: [
@@ -23,7 +23,7 @@ export default function(){
           projectStack: 'Javascript, Node, Express, MongoDB. Mongoose, MongoLab, EJS, Heroku, Bootstrap',
           description: 'I am the sole developer on this project. Users build up their personal map with all the cities and destinations that they have visited. They can then follow other users’ maps to compare each other’s destinations. I used an authentication middleware for Node called Passport.js. This project is far from finished, and I will continue to add features to this project. ',
           link: 'https://mymapapp.herokuapp.com',
-          imgLink: 'https://feel-planet.com/wp-content/uploads/2015/05/yellowstone-national-park-usa.jpg'
+          imgLink: '../../style/images/mapappImg.jpg'
         },
         {
           title: 'Personal Website',

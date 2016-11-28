@@ -6,7 +6,7 @@ import NavItemDetails from '../containers/nav-item-detail';
 class App extends Component {
   render() {
     return (
-      <div className='background'>
+      <div id="background">
         <Navbar />
         <NavItemDetails />
         {/* <ChatMessengerBtn /> */}
