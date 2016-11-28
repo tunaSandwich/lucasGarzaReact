@@ -8,7 +8,6 @@ body {
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
   background-image: url('./images/background.jpg');
-  /*background: rgb(164, 52, 27);*/
   background-repeat: no-repeat;
   background-size: 100% 100%;
 
@@ -57,6 +56,8 @@ nav {
   box-shadow: 7px 9px 28px -7px rgba(0,0,0,0.75);
   border-radius: 1px;
   margin-top: 30px;
+  max-height: 80vh;
+  overflow: scroll;
 }
 .alignBtn{
   display: inline-block;
@@ -217,4 +218,8 @@ li a:hover, li a:focus {
 }
 .alignToCenter{
   text-align: center;
+}
+.lucasHeader{
+  font-size: 40px;
+
 }

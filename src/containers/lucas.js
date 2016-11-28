@@ -18,29 +18,30 @@ class Lucas extends Component {
   render(){
     return (
       <div>
-        <div className='centerText LucasTitle'>
-          <h1>{this.props.nav.title}</h1>
+        <div className='centerText lucasHeader'>
+          <p>{this.props.nav.title}</p>
+          <h3>{this.props.nav.occupation}</h3>
           <hr className='redLine' />
         </div>
-        <table className="table borderless">
+        {/* <table className="table borderless">
           <tbody>
             {this.props.nav.skillSets.map(this.renderSkills)}
           </tbody>
-        </table>
-        <div className='alignContactInfo margincontact'>
+        </table> */}
+        <div className='centerText marginup'>
+        <a href={this.props.nav.linkedin.link}>
+        <img className='profIcon' src={this.props.nav.linkedin.imgLink} title={this.props.nav.linkedin.title} />
+        </a>
+        <a href={this.props.nav.github.link}>
+        <img className='profIcon' src={this.props.nav.github.imgLink} title={this.props.nav.github.title} />
+        </a>
+
+        </div>
+        {/* <div className='alignContactInfo margincontact'>
           <h5><strong>{this.props.nav.occupation}</strong>    • </h5>
           <h5><strong>{this.props.nav.email}</strong>    • </h5>
           <h6><strong>{this.props.nav.phone}</strong></h6>
-        </div>
-        <div className='centerText marginup'>
-          <a href={this.props.nav.linkedin.link}>
-            <img className='profIcon' src={this.props.nav.linkedin.imgLink} title={this.props.nav.linkedin.title} />
-          </a>
-          <a href={this.props.nav.github.link}>
-            <img className='profIcon' src={this.props.nav.github.imgLink} title={this.props.nav.github.title} />
-          </a>
-
-        </div>
+        </div> */}
       </div>
     )
   }

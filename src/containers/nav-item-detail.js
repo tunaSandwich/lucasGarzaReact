@@ -7,11 +7,10 @@ import Resume from './resume';
 class NavItemDetails extends Component {
 
   selectDetail(){
-    $(this).addClass("select");
     switch(this.props.nav.title){
       case 'Lucas Garza': return <Lucas />;
       case 'Projects': return <Projects />;
-      case 'Résumé': return <Resume />
+      case 'Résumé': return <Resume />;
     }
     return 'err';
   }

@@ -27,8 +27,8 @@ export default function(){
         },
         {
           title: 'Personal Website',
-          projectStack: 'React, Redux, JavaScript, ES6, SocketIO, Webpack, Babel',
-          description: ' This site is built with the React Framework together with Redux. The message form establishes a connection with my express server using SocketIO.',
+          projectStack: 'React, Redux, JavaScript, JSX, ES6, Webpack, Babel',
+          description: ' I update my personal site quite frequently to reflect new technologies that I am learning. Currently, my personal site is built with React + Redux. Some of the javascript in the project is written in ES6 syntax and then compiled using Babel. I also used Webpack as the module bundler for to project. The build of the site allows me to easily add and change content. I will continue adding more content as I continue building new projects.',
           link: 'http://lucasgarza.com',
           imgLink: '../../style/images/lucasGarzaImg.jpg'
         }
@@ -37,9 +37,9 @@ export default function(){
     },
     {
       title: 'Résumé',
-      file: '../../style/lucasResumeProgramming.pdf',
+      file: '../../style/programmingLucasResume.pdf',
       page: 1,
       id: 'Resume'
     }
-]
+  ]
 }
