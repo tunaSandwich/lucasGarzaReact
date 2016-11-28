@@ -7,19 +7,15 @@ class Projects extends Component {
       <div className='project'>
         <div className="media" key={project.title}>
         <div className="media-left media-middle">
-        <a href="#">
-        <img className="media-object img-circle thumbImg" src={project.imgLink} alt="..." />
-        </a>
         </div>
         <div className="media-body">
-        <h4 className="media-heading">{project.title}</h4>
+        <h4 className="media-heading"><strong>{project.title}</strong></h4>
         <h5>{project.projectStack}</h5>
-        <p>{project.description}</p>
-        <a href={project.link} className='projectLink'>{project.link}</a>
+        <p> {project.description} <a href={project.link} className='projectLink'>{project.link}</a> </p>
         </div>
         </div>
-
       </div>
+
     )
   }
 

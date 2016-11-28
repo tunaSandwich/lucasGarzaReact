@@ -229,8 +229,9 @@ li a:hover, li a:focus {
 }
 .profileImg{
   top: 25%;
-  height: 575px;
-  width: 600px !important;
+  height: 85vh;
+  max-height: 750px;
+  width: 100% !important;
   background-image: url('./images/lucasGarzaImg.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -244,4 +245,8 @@ li a:hover, li a:focus {
 }
 .project{
   margin-bottom: 10px;
+  margin-top: 10px;
+}
+.profContainer{
+  height: 80vh;
 }

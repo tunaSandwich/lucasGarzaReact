@@ -21,16 +21,18 @@ export default function(){
         {
           title: 'My Map App',
           projectStack: 'Javascript, Node, Express, MongoDB. Mongoose, MongoLab, EJS, Heroku, Bootstrap',
-          description: 'I am the sole developer on this project. Users build up their personal map with all the cities and destinations that they have visited. They can then follow other users’ maps to compare each other’s destinations. I used an authentication middleware for Node called Passport.js. This project is far from finished, and I will continue to add features to this project. ',
+          description: 'I am the sole developer on this project. Users build up their personal map with all the cities and destinations that they have visited. They can then follow other users’ maps to compare each other’s destinations. I used an authentication middleware for Node called Passport.js. This project is far from finished, and I will continue to add features to this project. You can visit the app at: ',
           link: 'https://mymapapp.herokuapp.com',
-          imgLink: '../../style/images/mapappImg.jpg'
+          imgLink: '../../style/images/mapappImg.jpg',
+          id: 'map'
         },
         {
           title: 'Personal Website',
           projectStack: 'React, Redux, JavaScript, JSX, ES6, Webpack, Babel',
-          description: ' I update my personal site quite frequently to reflect new technologies that I am learning. Currently, my personal site is built with React + Redux. Some of the javascript in the project is written in ES6 syntax and then compiled using Babel. I also used Webpack as the module bundler for to project. The build of the site allows me to easily add and change content. I will continue adding more content as I continue building new projects.',
-          link: 'http://lucasgarza.com',
-          imgLink: '../../style/images/lucasGarzaImg.jpg'
+          description: ' I update my personal site quite frequently to reflect new technologies that I am learning. Currently, my personal site is built with React + Redux. Some of the javascript in the project is written in ES6 syntax and then compiled using Babel. I also used Webpack as the module bundler for to project. The build of the site allows me to easily add and change content. I will continue adding more content as I continue building new projects. You can view source code at: ',
+          link: 'https://github.com/tunaSandwich/lucasGarzaWebsite',
+          imgLink: '../../style/images/lucasGarzaImg.jpg',
+          id: 'lucas'
         }
       ],
       id: 'Projects'

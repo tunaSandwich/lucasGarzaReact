@@ -3,22 +3,14 @@ import { connect } from 'react-redux';
 
 //TODO Swich with skillSymbols
 class Lucas extends Component {
-  renderSkills(tableRow){
-    return (
-      <tr key={tableRow[0].name}>
-        <td><img id={tableRow.id} className='tableImg' src={tableRow[0].icon} title={tableRow[0].name} /></td>
-        <td><img id={tableRow.id} className='tableImg' src={tableRow[1].icon} title={tableRow[1].name} /></td>
-        <td><img id={tableRow.id} className='tableImg' src={tableRow[2].icon} title={tableRow[2].name} /></td>
-        <td><img id={tableRow.id} className='tableImg' src={tableRow[3].icon} title={tableRow[3].name} /></td>
-      </tr>
-    )
-  }
 
 
   render(){
     return (
       <div>
-        <div className='col-md-6 col-md-offset-1 profileImg'></div>
+        <div className='col-md-6 col-md-offset-1 profContainer'>
+          <div className='profileImg'></div>
+        </div>
 
         <div className='col-md-3 col-md-offset-1 profileText'>
           <div className='centerText lucasHeader'>
