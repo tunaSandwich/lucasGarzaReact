@@ -6,11 +6,11 @@ class ChatMessenger extends Component{
   renderMessenger(){
     $('#chatContainer').toggleClass('show');
 
-    $('form').submit(function(){
-      socket.emit('chat message', $('#message').val());
-      $('#message').val('');
-      return false;
-    });
+    // $('form').submit(function(){
+    //   socket.emit('chat message', $('#message').val());
+    //   $('#message').val('');
+    //   return false;
+    // });
       return
   }
 

@@ -37,7 +37,7 @@ export default function(){
     },
     {
       title: 'Résumé',
-      file: '../../style/programmingLucasResume.pdf',
+      file: '../../style/lucasResume.pdf',
       page: 1,
       id: 'Resume'
     }
