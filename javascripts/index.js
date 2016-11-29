@@ -1,6 +1,6 @@
 //Selectors for Nav
 $("#Lucas").addClass("selected");
-$("#background").css("background-color", "black");
+$('body').css("background-color", "black");
 
 $("#Lucas").click(function(){
   $("#background").css("background-color", "");

@@ -5,7 +5,20 @@ import { selectNav } from '../actions/index';
 
 class Navbar extends Component{
   //Render NavBar List
-  renderList(){
+  renderListDesktop(){
+    return this.props.navs.map((navItem) => {
+      return (
+        <li key={navItem.title}
+        id={navItem.id}
+        onClick={() => this.props.selectNav(navItem)}
+        className='navListItem'>
+          <a href='#'><h4>{navItem.title}</h4></a>
+        </li>
+      );
+    });
+  }
+
+  renderListMobile(){
     return this.props.navs.map((navItem) => {
       return (
         <li key={navItem.title}
@@ -20,15 +33,33 @@ class Navbar extends Component{
 
   render() {
     return (
-      <nav className="navbar navbar-default">
+      <nav className='navbar navbar-default'>
         <div className="container-fluid">
-          <div className="navbar-header ">
-            <div className="col-md-6 col-md-offset-3 ">
-              <ul className="nav nav-pills nav-justified navigate">
-                {this.renderList()}
+
+        {/* Dropdown Navbar for tablets, mobile  */}
+        <div className='centerNavDropdown'>
+        <div className="navbar-header">
+          <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span className="sr-only">Toggle navigation</span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
+          </button>
+        </div>
+
+        </div>
+
+        {/* Nav */}
+        <div className="col-md-6 col-md-offset-3">
+          <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul className="nav navbar-nav">
+                <ul className="nav nav-pills nav-justified navigate">
+                  {this.renderListDesktop()}
+                </ul>
               </ul>
             </div>
           </div>
+
         </div>
       </nav>
     );

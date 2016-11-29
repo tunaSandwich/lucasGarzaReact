@@ -14,7 +14,7 @@ class Lucas extends Component {
         </div>
 
         {/* Title section */}
-        <div className='col-md-3 col-md-offset-1 profileText'>
+        <div className='col-md-4 profileText'>
           <div className='centerText'>
 
             <div className='lucasHeader'>
