@@ -15,13 +15,13 @@ $("#Projects").click(function(){
   $("#Lucas").removeClass("selected");
   $("#Resume").removeClass("selected");
   $(this).addClass("selected");
-  $("#background").css("background-color", "rgb(26, 26, 28)");
+  $("#background").css("background-color", "black");
 });
 
 $("#Resume").click(function(){
   $("#background").css("background-color", "");
   $("#Lucas").removeClass("selected");
   $("#Projects").removeClass("selected");
-  $("#background").css("background-color", "rgb(38, 38, 38)");
+  $("#background").css("background-color", "black");
   $(this).addClass("selected");
 });
