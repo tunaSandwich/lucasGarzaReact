@@ -279,6 +279,7 @@ li a:hover, li a:focus {
 .pdfContainer{
   max-height: 85vh;
   overflow: scroll;
+  color: rgba(245, 243, 239, 0.8);
 }
 .project{
   margin-bottom: 10px;
