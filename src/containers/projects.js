@@ -4,12 +4,13 @@ import { connect } from 'react-redux';
 class Projects extends Component {
   renderProjects(project){
     return (
-      <div className='project'>
-        <div className="media" key={project.title}>
+      <div key={project.title} className='project'>
+        <div className="media">
         <div className="media-left media-middle">
         </div>
         <div className="media-body">
-        <h4 className="media-heading"><strong>{project.title}</strong></h4>
+        <h4 className="media-heading">
+          <a className='projectTitle' href={project.link} >{project.title}</a></h4>
         <h5>{project.projectStack}</h5>
         <p> {project.description} <a href={project.link} className='projectLink'>{project.link}</a> </p>
         </div>

@@ -10,7 +10,7 @@ class NavItemDetails extends Component {
     switch(this.props.nav.title){
       case 'Lucas Garza': return <Lucas />;
       case 'Projects': return <Projects />;
-      case 'Résumé': return <Resume />;
+      case 'Resume': return <Resume />;
     }
     return 'err';
   }

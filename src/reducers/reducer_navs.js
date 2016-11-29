@@ -5,14 +5,10 @@ export default function(){
       backgroundImg: '../../style/images/backgroundLucas.jpg',
       occupation: 'DEVELOPER',
       github: {title: 'Github', imgLink: '../../style/images/stackSymbols/githubIcon.png', link: 'https://github.com/tunaSandwich'},
-      linkedin: {title: 'LinkedIn', imgLink: '../../style/images/stackSymbols/linkedIcon.png', link: 'www.linkedin.com/in/lucasgonzalezgarza'},
-      skillSets: [
-        [{ id: 'one', icon: '../../style/images/stackSymbols/JSLogo.png', name: 'JavaScript'}, { id: '2', icon: '../../style/images/stackSymbols/ES6Logo.jpg', name: 'ES6 Syntax'}, { id: '3', icon: '../../style/images/stackSymbols/mongoDBLogo.png', name: 'MongoDB'}, { id: '4', icon: '../../style/images/stackSymbols/socketIOLogo.gif', name: 'SocketIO'}],
-        [{ id: '5', icon: '../../style/images/stackSymbols/mongoLabLogo.png', name: 'Mongo Lab'}, { id: '6', icon: '../../style/images/stackSymbols/reactIcon.png', name: 'React'}, { id: '7', icon: '../../style/images/stackSymbols/reduxLogo.png', name: 'Redux'}, { id: '8', icon: '../../style/images/stackSymbols/herokuIcon.png', name: 'Heroku'}],
-        [{ id: '9', icon: '../../style/images/stackSymbols/nodeJSLogo.png', name: 'NodeJS'}, { id: '10', icon: '../../style/images/stackSymbols/expressLogo.png', name: 'Express'}, { id: '11', icon: '../../style/images/stackSymbols/htmlLogo.png', name: 'HTML'}, { id: '12', icon: '../../style/images/stackSymbols/cssLogo.png', name: 'CSS'}],
-      ],
+      linkedin: {title: 'LinkedIn', imgLink: '../../style/images/stackSymbols/linkedIcon.png', link: 'https://linkedin.com/in/lucasgonzalezgarza'},
       phone: '(626) 807-5538',
       email: 'gonzalezgarza.lucas@gmail.com',
+      about: 'Hello, my name is Lucas Garza. I am a self-taught developer passionate about building powerful tools and applications. ',
       id: 'Lucas'
     },
     {
@@ -38,7 +34,7 @@ export default function(){
       id: 'Projects'
     },
     {
-      title: 'Résumé',
+      title: 'Resume',
       file: '../../style/lucasResume.pdf',
       page: 1,
       id: 'Resume'
