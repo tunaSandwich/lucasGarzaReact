@@ -74,6 +74,7 @@ function mapStateToProps(state){
   }
 }
 
+//Sending nav item that gets selected to action index file to be processed
 function mapDispatchToProps(dispatch){
   return bindActionCreators( { selectNav: selectNav }, dispatch );
 }

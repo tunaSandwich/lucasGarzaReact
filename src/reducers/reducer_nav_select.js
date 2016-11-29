@@ -1,8 +1,10 @@
 import { NAV_ITEM_SELECTED } from '../actions/index';
 import NavsReducer from './reducer_navs';
 
+//Default selected nav is first in array... Lucas Garza
 const initialNav = NavsReducer()[0];
 
+//Passing current selected nav
 export default function(state = initialNav, action){
   switch(action.type){
     case  NAV_ITEM_SELECTED:

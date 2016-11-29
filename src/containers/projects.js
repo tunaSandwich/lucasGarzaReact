@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 class Projects extends Component {
   renderProjects(project){
     return (
+      // Render each project
       <div key={project.title} className='project'>
         <div className="media">
         <div className="media-left media-middle">
@@ -22,6 +23,7 @@ class Projects extends Component {
 
   render(){
     return (
+      // Project Container
       <div className='col-md-10 col-md-offset-1'>
         <div className='detailContainer'>
         {this.props.nav.project.map(this.renderProjects)}

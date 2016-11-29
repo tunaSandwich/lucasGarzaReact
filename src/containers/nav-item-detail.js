@@ -7,6 +7,7 @@ import Resume from './resume';
 class NavItemDetails extends Component {
 
   selectDetail(){
+    //Render currect Section
     switch(this.props.nav.title){
       case 'Lucas Garza': return <Lucas />;
       case 'Projects': return <Projects />;
