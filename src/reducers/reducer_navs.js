@@ -8,7 +8,7 @@ export default function(){
       linkedin: {title: 'LinkedIn', imgLink: '../../style/images/stackSymbols/linkedIcon.png', link: 'https://linkedin.com/in/lucasgonzalezgarza'},
       phone: '(626) 807-5538',
       email: 'gonzalezgarza.lucas@gmail.com',
-      about: 'My name is Lucas Garza. I am a motivated self-taught fullstack javascript developer. About two years ago I decided to commit full time to software development. I am most passionate about yielding the skillset to build powerful and useful applications. ',
+      about: 'My name is Lucas Garza. I am a motivated self-taught fullstack javascript developer. About two years ago I decided to commit full time to software development. I am most passionate about developing the skill-set to build powerful and useful applications.',
       id: 'Lucas'
     },
     {
