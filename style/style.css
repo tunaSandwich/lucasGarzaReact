@@ -90,7 +90,6 @@ body {
   border: none;
 }
 nav {
-  /*background: rgb(55, 57, 66) !important;*/
   background: black !important;
   border: none !important;
 
@@ -113,6 +112,8 @@ nav {
   margin-top: 30px;
   max-height: 80vh;
   overflow: scroll;
+  max-width: 900px;
+  margin: 0 auto;
 }
 .alignBtn{
   display: inline-block;
