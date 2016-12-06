@@ -48,12 +48,14 @@ body {
     overflow: scroll;
     color: rgba(245, 243, 239, 0.8);
   }
+  .pdfContainer canvas{
+    margin-top: 25px;
+  }
   .footerContainer{
     background-color: black;
     max-width: 90%;
     height: 100px;
     margin: 0 auto;
-
   }
 
 }
