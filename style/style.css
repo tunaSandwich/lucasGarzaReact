@@ -50,7 +50,7 @@ body {
   }
   .footerContainer{
     background-color: black;
-    max-width: 900px;
+    max-width: 90%;
     height: 100px;
     margin: 0 auto;
 
@@ -317,11 +317,11 @@ hr{
 .margincontact{
   margin-top: 45px;
 }
-.selected{
+.selected a{
   color: white !important;
 }
 li a:hover, li a:focus {
-   color: white !important;
+   /*color: white !important;*/
    background-color: black !important;
 }
 .redLine{
@@ -333,13 +333,13 @@ li a:hover, li a:focus {
   color: white;
 }
 .SimplePDF {
-      width: 350px;
-      height: 500px;
-      border: 1px dashed red;
-      margin: 15px;
-      padding: 15px;
-      float: left;
-      margin-top: 25px;
+  width: 350px;
+  height: 500px;
+  border: 1px dashed red;
+  margin: 15px;
+  padding: 15px;
+  float: left;
+  margin-top: 25px;
 }
 #messages li{
   background-color: rgba(230, 48, 0, 0.74);
@@ -376,7 +376,7 @@ li a:hover, li a:focus {
   font-size: 20px;
 }
 .projectTitle{
-  color: lightgrey;
+  color: white;
 }
 .centerNavDropdown{
   right: 45%;
@@ -397,4 +397,10 @@ li a:hover, li a:focus {
   width: 25px;
   height: 25px;
   margin-left: 15px;
+}
+.mediaDescription{
+  color: rgb(166, 162, 161);
+}
+.projectStack{
+  color: lightgrey;
 }

@@ -9,10 +9,10 @@ class Projects extends Component {
         <div className="media">
         <div className="media-left media-middle">
         </div>
-        <div className="media-body">
+        <div className="media-body mediaDescription">
         <h4 className="media-heading">
           <a className='projectTitle' href={project.link} >{project.title}</a></h4>
-        <h5>{project.projectStack}</h5>
+        <h5 className='projectStack'>[ {project.projectStack} ]</h5>
         <p> {project.description} <a href={project.link} className='projectLink'>{project.link}</a> </p>
         </div>
         </div>
