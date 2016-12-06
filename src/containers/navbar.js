@@ -12,28 +12,16 @@ class Navbar extends Component{
         id={navItem.id}
         onClick={() => this.props.selectNav(navItem)}
         className='navListItem'>
-          <a href='#'><h4>{navItem.title}</h4></a>
+          <a href='#'>{navItem.title.toUpperCase()}</a>
         </li>
       );
     });
   }
 
-  renderListMobile(){
-    return this.props.navs.map((navItem) => {
-      return (
-        <li key={navItem.title}
-        id={navItem.id}
-        onClick={() => this.props.selectNav(navItem)}
-        className='navListItem'>
-          <a href='#'><h4>{navItem.title}</h4></a>
-        </li>
-      );
-    });
-  }
 
   render() {
     return (
-      <nav className='navbar navbar-default'>
+      <nav className='navbar navbar-default navPushFromTop'>
         <div className="container-fluid">
 
         {/* Dropdown Navbar for tablets, mobile  */}
@@ -50,7 +38,7 @@ class Navbar extends Component{
         </div>
 
         {/* Nav */}
-        <div className="col-md-6 col-md-offset-3">
+        <div className="col-md-12">
           <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul className="nav navbar-nav">
                 <ul className="nav nav-pills nav-justified navigate">

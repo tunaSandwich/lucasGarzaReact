@@ -12,53 +12,150 @@ body {
   background-size: 100% 100%;
 }
 /*Monitor*/
-@media (min-width: 1280px) {
-  .profileImg {
-    top: 25%;
-    height: 750px;
-    width: 750px;
-    background-image: url('./images/lucasGarzaImg.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-.profileText{
-  top: 20vh;
-}
-
-
-}
-/*phone*/
-@media (min-width: 1px) {
-  .profileImg {
-    top: 25%;
-    height: 300px;
-    width: 300px;
-    background-image: url('./images/lucasGarzaImg.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    margin: 0 auto;
-}
-
-}
-
-/*Macbook*/
-@media (min-width: 767px) {
-  .profileImg {
-    top: 25%;
+@media all and (min-width: 1280px) {
+  .contentContainer{
+    width: 90%;
     height: 500px;
-    width: 500px;
-    background-image: url('./images/lucasGarzaImg.jpg');
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin: 0 auto;
+  }
+  .homepageImg{
+    position: absolute;
+    height: 498px;
+    width: 1200px;
+    background-image: url('./images/homePageLucas.jpeg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .detailContainer{
+    padding: 25px;
+    border-radius: 1px;
+    margin-top: 30px;
+    max-height: 80vh;
+    overflow: scroll;
+    max-width: 900px;
+    margin: 0 auto;
+    color: lightgrey;
+  }
+
+  .pdfContainer{
+    max-height: 475px;
+    overflow: scroll;
+    color: rgba(245, 243, 239, 0.8);
+  }
+  .footerContainer{
+    background-color: black;
+    width: 90%;
+    height: 100px;
     margin: 0 auto;
 
+  }
+
 }
-.profileText{
-  top: 20vh;
-}
+/*Macbook*/
+@media all and (max-width: 1279px) and (min-width: 768px) {
+  .contentContainer{
+    width: 90%;
+    height: 500px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin: 0 auto;
+  }
+  .homepageImg{
+    position: absolute;
+    height: 498px;
+    width: 1200px;
+    background-image: url('./images/homePageLucas.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .detailContainer{
+    padding: 25px;
+    border-radius: 1px;
+    margin-top: 30px;
+    max-height: 80vh;
+    overflow: scroll;
+    max-width: 900px;
+    margin: 0 auto;
+    color: lightgrey;
+  }
+
+  .pdfContainer{
+    max-height: 475px;
+    overflow: scroll;
+    color: rgba(245, 243, 239, 0.8);
+  }
+  .footerContainer{
+    background-color: black;
+    height: 100px;
+    width: 1200px;
+    margin: 0 auto;
+
+  }
+
 
 }
 
+/*phone*/
+@media all and (max-width: 767px) and (min-width: 1px) {
+  .contentContainer{
+    width: 90%;
+    height: 500px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin: 0 auto;
+  }
+  .homepageImg:before{
+  content: "My name is Lucas Garza. I am fully commited to software development and passionate about developing powerful and useful applications.";
+  color: lightgrey;
+  font-size: 15px;
+  font: Sans-serif;
+  text-transform: uppercase;
+  margin-top: 50px;
+
+}
+.homepageImg{
+  margin-top: 100px;
+  text-align: center;
+}
+.detailContainer{
+  padding: 25px;
+  border-radius: 1px;
+  margin-top: 30px;
+  max-height: 500px;
+  overflow: scroll;
+  max-width: 900px;
+  margin: 0 auto;
+  color: lightgrey;
+}
+
+/* Todo AddIcons to mobile view*/
+  .pdfContainer{
+    max-height: 475px;
+    overflow: scroll;
+    color: rgba(245, 243, 239, 0.8);
+    top: 25px;
+  }
+  .footerContainer{
+    background-color: black;
+    width: 90%;
+    height: 100px;
+    margin: 0 auto;
+  }
+
+
+}
+
+/*-----------------------------------------------------------*/
 .backgroundLucas{
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
@@ -92,41 +189,26 @@ body {
 nav {
   background: black !important;
   border: none !important;
-
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.navPushFromTop{
+  margin-top: 25px !important;
 }
 .navigate a{
-  font-size: 15px;
-  /*color: rgba(255, 255, 255, 0.72);*/
+  font-size: 15px !important;
   color: rgba(245, 243, 239, 0.9);;
+  padding: 0 !important;
+  margin-top: 15px;
 }
 .navigate li:hover{
   background-color: black;
-}
-.detailContainer{
-  padding: 25px;
-  background: rgba(245, 243, 239, 0.8);
-  -webkit-box-shadow: 7px 9px 28px -7px rgba(0,0,0,0.75);
-  -moz-box-shadow: 7px 9px 28px -7px rgba(0,0,0,0.75);
-  box-shadow: 7px 9px 28px -7px rgba(0,0,0,0.75);
-  border-radius: 1px;
-  margin-top: 30px;
-  max-height: 80vh;
-  overflow: scroll;
-  max-width: 900px;
-  margin: 0 auto;
 }
 .alignBtn{
   display: inline-block;
 }
 .detailHeader{
   float: left;
-}
-.linkedInBtn{
-  margin-left: 10px;
-  margin-bottom: 10px;
-}
-.githubBtn{
-  margin-right: 25px;
 }
 .borderless{
   margin-top: 25px;
@@ -236,13 +318,11 @@ hr{
   margin-top: 45px;
 }
 .selected{
-  border-bottom: 2.5px solid rgba(230, 48, 0, 0.74);
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  color: white !important;
 }
 li a:hover, li a:focus {
    color: white !important;
-   background-color: rgb(38, 38, 38) !important;
+   background-color: black !important;
 }
 .redLine{
   border: 1px solid rgba(230, 48, 0, 0.74);
@@ -250,7 +330,7 @@ li a:hover, li a:focus {
   width: 250px;
 }
 .projectLink{
-  color: rgba(230, 48, 0, 0.74);
+  color: white;
 }
 .SimplePDF {
       width: 350px;
@@ -259,6 +339,7 @@ li a:hover, li a:focus {
       margin: 15px;
       padding: 15px;
       float: left;
+      margin-top: 25px;
 }
 #messages li{
   background-color: rgba(230, 48, 0, 0.74);
@@ -276,11 +357,6 @@ li a:hover, li a:focus {
 .lucasHeader{
   font-size: 40px;
   color: whitesmoke;
-}
-.pdfContainer{
-  max-height: 85vh;
-  overflow: scroll;
-  color: rgba(245, 243, 239, 0.8);
 }
 .project{
   margin-bottom: 10px;
@@ -300,9 +376,25 @@ li a:hover, li a:focus {
   font-size: 20px;
 }
 .projectTitle{
-  color: black;
+  color: lightgrey;
 }
 .centerNavDropdown{
   right: 45%;
   border: none;
+}
+.email{
+  margin-top: 15px;
+  float: left;
+  font-size: 12px;
+  color: lightgrey;
+}
+.icons{
+  float: right;
+  margin-top: 15px;
+  display: inline-block;
+}
+.icons img{
+  width: 25px;
+  height: 25px;
+  margin-left: 15px;
 }

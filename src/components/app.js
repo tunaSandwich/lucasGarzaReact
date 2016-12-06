@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ChatMessengerBtn from '../containers/messenger-button';
 import Navbar from '../containers/navbar';
 import NavItemDetails from '../containers/nav-item-detail';
+import Footer from '../containers/footer';
 
 class App extends Component {
   render() {
@@ -9,6 +10,7 @@ class App extends Component {
       <div id="background">
         <Navbar />
         <NavItemDetails />
+        <Footer />
         {/* <ChatMessengerBtn /> */}
       </div>
     );
